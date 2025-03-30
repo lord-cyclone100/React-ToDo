@@ -1,0 +1,54 @@
+
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+h1{
+  font-size: 70px;
+  padding-bottom: 4vh;
+}
+
+h2{
+  padding-bottom: 4vh;
+}
+
+
+.inp{
+  margin-bottom: 50px;
+}
+
+.inpBox{
+  width: 24vw;
+  height: 6vh;
+  border-radius: 4px;
+  padding: 0 2vw;
+}
+
+.sub-Btn{
+  padding: 1.8vh;
+  border-radius: 8px;
+  background: #0a0b0c;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addedItems{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2vh;
+}
+

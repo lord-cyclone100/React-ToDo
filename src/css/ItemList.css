@@ -1,0 +1,111 @@
+.outer > p{
+    text-align: right;
+}
+
+.list-name{
+    width: 32vw;
+    min-height: 8vh;
+    background-color: rgb(215, 214, 215);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: black;
+    font-size: 20px;
+    border: 2px dotted black;
+    border-radius: 4px;
+    padding: 0 2vw;
+}
+
+.txt-box{
+    width: 100%;
+    /* display: flex;
+    gap: 20px;
+    align-items: center; */
+    /* justify-content: center; */
+}
+
+p{
+    word-wrap: break-word;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.create-time{
+    width: 100%;
+}
+
+.dt-time{
+    font-size: 12px;
+    text-align: right;
+}
+
+.strike{
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+.non-strike{
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.task-pending-on{
+    display: block;
+}
+
+.task-done-on{
+    display: block;
+    color: green;
+}
+
+.task-pending-off{
+    display: none;
+}
+
+.task-done-off{
+    display: none;
+}
+
+.edit-func{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    /* display: none; */
+}
+
+.edit-box-on{
+    height: 3.2vh;
+    display: block;
+}
+
+.edit-box-off{
+    display: none;
+}
+
+.dlt-btn{
+    color: rgb(227, 22, 22);
+}
+
+.inv{
+    display: none;
+}
+
+.vis{
+    display: block;
+}

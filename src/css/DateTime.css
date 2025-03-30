@@ -1,0 +1,9 @@
+.date-and-time{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12vw;
+    -webkit-text-stroke: 1px black;
+}

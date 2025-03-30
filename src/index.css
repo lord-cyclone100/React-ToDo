@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: "Winky Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(to right, #1c99ad, #024c60); */
+  color: azure;
+}
+
+.wrapper{
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #1c99ad, #024c60);
+}

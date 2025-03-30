@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 2px black;
+}
+
+img{
+    height: 12vh;
+}
